@@ -1,0 +1,12 @@
+1-Link para acessar a aplicação na nuvem https://sistema-de-controle-em-correias.vercel.app/
+                                        
+2-Adicionar repositorio no github git clone + link do repositório
+
+3-Para fazer upload do projeto alterado vai no terminal do vscode. 
+digite :
+    cd nome do projeto que baixou do github
+    git add .
+    git commit -m "mensagem"
+    git push origin main
+
+4-
