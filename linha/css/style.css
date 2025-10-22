@@ -3,14 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import 'form.css'; 
-@import 'topo.css';
-@import 'container.css';
-@import 'card.css';
-@import 'img.css';
-@import 'footer.css';
+/* @import 'form.css';  */
+@import 'topoA2.css';
+@import 'sectionA2.css';
+/* @import 'card.css'; */
+/* @import 'img.css'; */
+@import 'footerA2.css';
 @import 'grupoLinks.css';
-@import 'swiper.css';
+/* @import 'swiper.css'; */
 @import 'reset.css';
 
 *{
