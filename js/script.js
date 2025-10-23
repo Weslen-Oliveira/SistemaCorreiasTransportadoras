@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const swiper = new Swiper('.swiper', {
         // Configurações do Swiper
-        slidesPerView: 1,
+        slidesPerView: 5,
         centeredSlides: false,
         spaceBetween: 20,
         loop: true,
@@ -12,17 +12,18 @@ document.addEventListener('DOMContentLoaded', function() {
             breakpoints: {
             320: {
                 slidesPerView: 1,
+                loop: true,
             },
-                // quando a largura da janela é >= 640px
+                // Telas >= 640px
             640: {
                 slidesPerView: 2,
             },
-                // quando a largura da janela é >= 1024px
+                // Telas >= 1024px
             1024: {
                 slidesPerView: 3,
             },
             1400:{
-                slidesPerView: 3
+                slidesPerView: 4
             }
         }
     });
